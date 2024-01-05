@@ -62,7 +62,7 @@ export const NewPasswordForm = () => {
           <FormError message={error} />
           <FormSuccess message={success} />
           <Button disabled={isPending} className='w-full' type='submit'>
-            Reset email
+            Change Password
           </Button>
         </form>
       </Form>
